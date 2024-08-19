@@ -1,0 +1,234 @@
+Test Case ID,Test Case Title,Test Description,Preconditions,Test Steps,Expected Result,Actual Result,Status
+TC001,Accessing the MSQUARE Mobile app,"Verify that the application displays
+ Buy Products,Token Transfer, Discounted produts, secure layer slideshows when opened",The MSQUARE Mobile app is installed and launched for the first time.,"1) Launch the MSQUARE Mobile app.
+2) Observe the screen upon application launch.
+3) Slide the carousels"," the application displays
+ Buy Products,Token Transfer, Discounted produts, secure layer slideshows/carousels",working as expected,Pass
+TC002,Sliding the slide shows,"Verify after sliding all the slideshows
+check wether next button is clickable","The next button should be present at the 
+last slide",1) Click on the next button,"The application displays a notification
+ prompt with the message ""Allow MSQUARE MARKET
+ to send you notifications?""",Notification prompt is displayed,Pass
+TC003,"""Allow MSQUARE MARKET to
+ send you notifications?""","Verify that the notification permission prompt ""Allow MSQUARE MARKET to send you notifications?"" displays when the user clicks on the ""Next"" button.","1) The MSQUARE MARKET mobile app is installed and launched.
+2) The user click on the next button on the slides","1) Open the MSQUARE MARKET mobile app.
+2) Navigate to the section where the ""Next"" button is displayed.
+3) Click on the ""Next"" button.","A notification permission prompt with the message ""Allow MSQUARE MARKET to send you notifications?"" appear",working as expected,Pass
+TC004,"Clicking the ""Allow"" button ","Verify that clicking the ""Allow"" button 
+on the notification prompt leads to the display of the sign-in page.","The notification prompt is display
+and allow user to click on the allow and do
+ not allow buttons","1) Open the MSQUARE MARKET mobile app.
+2) Scroll the slides shows 
+3) Click on the ""Next"" button.","The application navigates to the
+ sign-in page","Sign in with google 
+sign in with apple buttons are displayed ",Pass
+TC005,"click on sign with google 
+button","Verify that click on sign with google 
+button",sign with google button should be functional ,"1) Open the MSQUARE MARKET mobile app.
+2) Click on Sign with google button","The application should display list of 
+user accounts which are available in
+user mobile","Choose and account
+window is displayed
+with all the user accounts",Pass
+TC006," click on sign with Apple 
+button","Verify that click on sign with Apple 
+button",sign with Apple button should be functional ,"1) Open the MSQUARE MARKET mobile app.
+2) Click on Sign with Apple button","The application should navigate to
+the site ""applied.apple.com"" in
+user IOS device","navigated to the site ""applied.apple.com""",Pass
+TC007,click on the Language Icon,Verify and click on the Language Icon,"Eng with flag icon should be visible and
+functional","1) Open the MSQUARE MARKET mobile app.
+2) Click on ENG language icon","A Language window with
+list of languages English, chinese,
+japanese and korean should display","A Language window with
+list of languages English, chinese,
+japanese and korean should display",Pass
+TC008,click on each language button,Verify and click on each language button,"
+list of languages English, chinese,
+japanese and korean language button should be functional","1) Click on the ENG language icon
+2) Click on each displayed languages ","The selected language should reflect
+on the sign in page","The selected language is
+reflected on the sign in page",Pass
+TC009,clicking on the user account navigates the application to the homepage.,Verify that clicking on the user account navigates the application to the homepage.,There are valid user accounts on the device.,"1) Launch the MSQUARE Mobile app.
+2) Ensure the user is signed in and user accounts are available.
+3) Click on the user account.","The application navigates to the homepage by displaying the popup
+window",The application navigates to the homepage,Pass
+TC010,"Clicking ""Don't Show It Today"" Button","Verify that clicking the ""Don't Show It Today"" button displays an advertise banner with a window close button and does not show the popup again for the rest of the day.","The popup window with functional ""Don't Show It Today"" and ""Cancel"" buttons is displayed.","1) Launch the MSQUARE Mobile app.
+2) Wait for the popup window to appear.
+3) Click on the ""Don't Show It Today"" button.","The application displays an advertise banner with a window close button.
+The popup window does not appear again for the rest of the day.","The application displays an advertise banner with a window close button.
+The popup window does not appear again for the rest of the day.",Pass
+TC011," Clicking ""Cancel"" Button","Verify that clicking the ""Cancel"" button closes the current popup window.","The popup window with functional ""Don't Show It Today"" and ""Cancel"" buttons is displayed.","1) Launch the MSQUARE Mobile app.
+2) Wait for the popup window to appear.
+3) Click on the ""Cancel"" button.",The current popup window closes.,The current popup window closed,Pass
+TC012,Verify HomePage is Scrollable, Verify that the home page is scrollable.,"The MSQUARE Mobile app is installed and the user is on the home page.
+The application should allow users to scroll the home page up and down.","1) Launch the MSQUARE Mobile app.
+2) Navigate to the home page.
+3) Attempt to scroll the home page up and down.",The Page can be scrollable by the user,"User can scroll the home page
+and all the elements are visible",Pass
+TC013," Clicking ""right arrow"" Button",Verify clicking the right arrow mark on the homepage.,The MSQUARE Mobile app is installed and the user is on the home page. The right arrow mark should be clickable.,"1) Open the MSQUARE Mobile app.
+2) Ensure the user is on the homepage.
+3) Locate the right arrow mark on the screen.
+4) Click on the right arrow mark.",The content on the homepage should move to the next section/page.,The approprate video is played,Pass
+TC014," Clicking ""Left arrow"" Button",Verify clicking the left arrow mark on the homepage.,The MSQUARE Mobile app is installed and the user is on the home page. The right arrow mark should be clickable.,"1) Open the MSQUARE Mobile app.
+2) Ensure the user is on the homepage.
+3) Locate the right arrow mark on the screen.
+4) Click on the left arrow mark.",The content on the homepage should move to the next section/page.,The approprate video is played,Pass
+TC015,Clicking on the logo in the won currency wallet,Verify clicking the logo in the won currency section/wallet navigates to the correct page.,"he MSQUARE Mobile app is installed, the user is on the homepage, and the logo in the won currency section/wallet is visible and clickable.","1) Open the MSQUARE Mobile app.
+2)Ensure the user is on the homepage.
+3)Locate the logo in the won currency section/wallet.
+4)Click on the logo.","It should display video of the 
+short 5 seconds add",The short video of the add is played,Pass
+TC016,Verify Ad Playback on Clicking Wallet,"Verify that a short ad plays completely when the user clicks on the wallet in the ""My P2U Holdings"" section.","User is logged into the app.
+User navigates to the ""My P2U Holdings"" section.
+The video ad is preloaded and ready to play without loading delays.","1) Navigate to the ""My P2U Holdings"" section.
+2) Click on the wallet icon.
+3) Observe the ad playback.","The ad plays without loading delays, displaying a countdown timer showing the remaining seconds.","The ad plays without loading delays, displaying a countdown timer showing the remaining seconds.",Pass
+TC017,Verify Ad Completion and Transition to Add Card Information Window,"Verify that after the ad completes, the user is presented with the ""Add Card Company Information"" window.","The short ad has started playing after clicking on the wallet in the ""My P2U Holdings"" section.","1) Allow the ad to play completely without interruption.
+2) Observe the screen after the ad finishes.","After the ad completes, the ""Add Card Company Information"" window is displayed.","Add Card Company Information"" window is displayed.",Pass
+TC018,Verify Add Card Button Click Functionality,"Verify that clicking the ""Add Card"" button navigates the user to the card management page.","User is logged into the app.
+The ""Add Card"" button is visible and clickable.","1)Navigate to the section where the ""Add Card"" button is located.
+2) Verify that the ""Add Card"" button is clickable.
+3) Click on the ""Add Card"" button.","Clicking the ""Add Card"" button should navigate the user to the card management page.", card management page is displayed,Pass
+TC019,Verify Click on Organization Name Navigates to Specific Site,Verify that clicking on an organization name under the MSQUARE/SNS section navigates to the specific site of the organization.,"User is logged into the app.
+User is on the MSQUARE/SNS section.
+Each organization in the list has a specific site URL configured.","1) Navigate to the MSQUARE/SNS section.
+2) Click on the name of the first organization in the list.
+3) Observe the navigation.",The user is navigated to the specific site of the organization.,few of the organisation is not displayed,few of the organisation is not working
+TC020,"Verify ""View All"" Button in News Section"," Verify that clicking the ""View All"" button in the news section navigates the user to the news announcement page.","User is logged into the app.
+The ""View All"" button is visible and clickable in the news section.","1) Navigate to the section of the app where the news section is displayed.
+2) Verify that the ""View All"" button is visible and clickable.
+3) Click on the ""View All"" button.
+4) Observe the screen after clicking the button.","Clicking the ""View All"" button should navigate the user to the news announcement page.","News content should be displayed
+on the announcement page.",Pass
+TC021,Verify Notifications Button in Announcement Section,Verify that clicking the notifications button in the announcement section displays a list of notifications.,"User is logged into the app.
+The notifications button is visible and clickable in the announcement section.","1) Navigate to the announcement section of the app.
+2) Verify that the notifications button is visible and clickable.
+3) Click on the notifications button.
+4) Observe the screen after clicking the button.",Clicking the notifications button should display a list of notifications.,Notification are displayed,Pass
+TC022,Verify Automatic News Post Carousel Changes,Verify that the news post carousel automatically changes through the list of news posts.,"User is logged into the app.
+A list of news posts is available in the carousel.","1) Navigate to the section of the app where the news post carousel is displayed.
+2) Verify that a list of news posts is available in the carousel.
+3) Observe the carousel to ensure it automatically changes through the news posts.","The news post carousel should automatically change, cycling through all the available news posts.",All the news post are dispalyed ,Pass
+TC023,Verify Click on Won Sign in Tokens Section,Verify that clicking on the won sign in the tokens section navigates the user to the P2U page.,"User is logged into the app.
+The won sign is visible and clickable in the tokens section.
+Navigation is set up to redirect to the P2U page when the won sign is clicked.","1) Navigate to the tokens section of the app.
+2) Verify that the won sign is visible and clickable.
+3) Click on the won sign.
+4) Observe the screen after clicking the won sign.",Clicking the won sign should navigate the user to the P2U page.,P2U page is displayed,Pass
+TC024,Verify Scanner Icon Visibility on Homepage, Ensure the scanner icon is visible and accessible on the homepage., User is logged into the application. The scanner icon should be visible and functional.,"1) Navigate to the homepage of the application.
+2) Observe the top section of the homepage.
+",The scanner icon should be visible in the top section of the homepage.,working as expected,Pass
+TC025,Verify First-time Access to Scanner,"Ensure that when accessing the scanner for the first time, the application displays scanner accessibility options.",User is logged into the application. The scanner icon should be visible and functional. User has never accessed the scanner before.,"1) Navigate to the homepage of the application.
+2)Click on the scanner icon."," The application should display scanner accessibility options in the
+device",working as expected,Pass
+TC026,Verify Returning User Access to Scanner,"Ensure that if the user has already accessed the scanner, it navigates directly to the scanning window",User is logged into the application. The scanner icon should be visible and functional. User has accessed the scanner before.,"1) Navigate to the homepage of the application.
+2) Click on the scanner icon.",The application should navigate directly to the scanning window.,"dispalying as "" invalid QR code""
+for valid QR code",Fail
+TC027,Verify Notification Icon Visibility on Homepage,Ensure the notification icon is visible and accessible on the homepage.,"User is logged into the application.
+The notification icon should be visible and functional.","1) Navigate to the homepage of the application.
+2) Observe the top section of the homepage.",The notification icon should be visible in the top section of the homepage.,working as expected,Pass
+TC028,Verify Notification Icon Functionality for Existing Notifications,Ensure that clicking on the notification icon with existing notifications navigates to the announcements page displaying the notifications tab with the correct notifications.,"User is logged into the application.
+The notification icon should be visible and functional.
+There are existing notifications for the user.","1) Navigate to the homepage of the application.
+2) Click on the notification icon.
+3) Observe the notifications tab on the announcements page.",The notifications tab should display the existing notifications correctly on the announcements page,Inprogress,
+TC029,Verify Wallet Icon Functionality on Homepage,verify that clicking on the wallet icon on the homepage opens the wallet page and displays the available balance.,The wallet icon should be visible and functional on the homepage.,"1) Navigate to the homepage.
+2) Ensure that the wallet icon is visible.
+3) Click on the wallet icon.","The wallet page should open, displaying the available balance.",working as expected,Pass
+TC030,Verify P2U Navigation from Wallet Page," user clicks on the P2U button/link on the wallet page, they are navigated to the P2U page which displays the available P2U and Transfer P2U options.","The user is logged into the application.
+The wallet page is accessible.
+The P2U button/link should be visible and functional on the wallet page.","1) Navigate to the wallet page.
+2) Verify that the P2U button/link is visible.
+3) lick on the P2U button/link.","The user should be navigated to the P2U page.
+The P2U page should display the available P2U.
+The P2U page should have an option to Transfer P2U.",working as expected,Pass
+TC031,Verify Navigation to Super Save Page from Homepage," verify that when a user clicks on the Super Save icon on the homepage, they are navigated to the Super Save page which displays a list of details.","The user is logged into the application.
+The homepage is accessible.
+The Super Save icon should be visible and functional on the homepage.","1) Navigate to the homepage.
+2) Verify that the Super Save icon is visible.
+3) Click on the Super Save icon.","The user should be navigated to the Super Save page.
+The Super Save page should display a list of details ",working as expected,Pass
+TC032,Verify USDT Tab Navigation on Super Save Page," verify that when a user clicks on the USDT tab on the Super Save page, they are navigated to the appropriate page which displays the USDT balance information to the user.","The user is logged into the application.
+The Super Save page is accessible.
+The USDT tab should be visible and functional on the Super Save page.","1) Navigate to the Super Save page.
+2) Verify that the USDT tab is visible.
+3) Click on the USDT tab.","The user should be navigated to the USDT section/page.
+The USDT section/page should display the USDT balance information to the user.",working as expected,Pass
+TC033,Verify Refresh Button Functionality on Super Save Page,"verifies that when a user clicks on the refresh button on the super save page, the balance amount is refreshed and the KRW remaining balance is fetched and displayed.","The user is logged into the application.
+The super save page is accessible.
+The refresh icon/button is visible and functional on the super save page.","1) Navigate to the super save page.
+2) Verify that the refresh icon/button is visible.
+3) Click on the refresh icon/button.","The balance amount should be refreshed.
+The KRW remaining balance should be fetched and displayed.",working as expected,Pass
+TC034,"Verify Clicking on ""See Details"" on Super Save Page"," verify that when a user clicks on the ""See Details"" button on the Super Save page, they are navigated to the My Participation page.","The user is logged into the application.
+The Super Save page is accessible.
+The ""See Details"" button should be visible and functional on the Super Save page.","1) Navigate to the Super Save page.
+2) Verify that the ""See Details"" button is visible.
+3) Click on the ""See Details"" button.","The user should be navigated to the My Participation page.
+The My Participation page should display relevant details about the super save event or promotion.",working as expected,Pass
+TC035,"Verify clicking on 
+payment completed tab functionality","Verify when user click on the payment completed button is navigate when click
+on it","The user is logged into the application, accessing their participation page where the payment completed button functions","1) Navigate to the Super Save page.
+2) Click on the ""See Details"" button
+3) click on payment completed button",payment completed details should display,working as expected,Pass
+TC036," Verify Click on ""Apply for Super Save"" Arrow Mark Button","Verify that when a user clicks on the ""Apply for Super Save"" arrow mark button, the currency selection page should be displayed.","The user is logged into the application.
+The ""Apply for Super Save"" arrow mark button should be visible and functional.","1) Navigate to the appropriate page where the ""Apply for Super Save"" arrow mark button is located.
+2) Locate the ""Apply for Super Save"" arrow mark button.
+3) Click on the ""Apply for Super Save"" arrow mark button.",The currency selection page should be displayed after clicking the button.,working as expected,Pass
+TC037,Verify Click on View Pending / Approved List Arrow Mark Button,"Verify that when a user clicks on the ""View Pending / Approved List"" arrow mark button, the applied list page is displayed as expected.","The user is logged into the application.
+The View Pending / Approved List arrow mark button should be visible and functional.","1) Navigate to the relevant page where the ""Super Save"" arrow mark button is located.
+2) Locate the ""View Pending / Approved List"" arrow mark button.
+3) Click on the ""View Pending / Approved List"" arrow mark button.","The applied list page should be displayed.
+The page should show the list of pending or approved items, depending on the application's workflow.",working as expected,Pass
+TC038,Verify Click on super save payment details Arrow Mark Button,Verify that when a user clicks on  super save payment details Arrow mark button.,"The user is logged into the application.
+ super save payment details arrow mark button should be visible and functional.","1) Navigate to the relevant page where the "" super save payment details "" arrow mark button is located.
+2) Click on the ""super save payment details button"," super save payment details page should 
+be displayed",working as expected,Pass
+TC039,Verify Click on super save user guide Arrow Mark Button,Verify that when a user clicks on super save user guide Arrow Mark Button.,"The user is logged into the application.
+  super save user guide Arrow mark button should be visible and functional.","1) Navigate to the relevant page where the ""  super save user guide Arrow mark button
+2) Click on the  super save user guide Arrow mark button",User guide page should display,working as expected,Pass
+TC040, Verify Click on Comment Icon on Super Save Page,"Verify that when a user clicks on the comment icon on the Super Save page, the 1:1 Inquiry page is correctly displayed.","The user is logged into the application.
+The Super Save page is accessible.
+The comment icon should be visible and functional on the Super Save page.","1) Navigate to the Super Save page.
+2) Locate the comment icon on the page.
+3) Click on the comment icon.",The user should be directed to the 1:1 Inquiry page.,working as expected,Pass
+TC041,Verify Interaction with UI Elements,"Verify  that the user can interact with various UI elements such as text fields, dropdowns, attachment buttons, and message text fields.","The application is accessible and the relevant UI screen is loaded.
+All text fields, dropdowns, attachment buttons, and message text fields are functional.","1)Click on each text field and enter the text
+2) select the input and Click on the dropdown button.
+3) Verify that a file picker dialog and select attachment button","Each text field should accept input from the user.
+The dropdown should display options and allow the user to select one.
+The attachment button should trigger a file selection dialog.
+The message text field should accept and display typed text.",working as expected,Pass
+TC042,Verify Submission of Enquiry Form,"Verify that when a user fills in all required fields on the enquiry form and clicks the submit button, an enquiry is successfully submitted, and a confirmation message is displayed.","The user is logged into the application (if applicable).
+The enquiry form is accessible and all text fields and dropdowns are functional.","1) Navigate to the enquiry form page.
+2) Fill in all required fields (name, email, enquiry type, message, etc.).
+3) Click on the submit button.","""Enquiry message should displayed.",working as expected,Pass
+TC043,Verify Navigation to Transaction History Page via Note Icon on Homepage,"Verify that when a user clicks on the note icon on the homepage, they are navigated to the transaction history page.","The user is logged into the application.
+The homepage is accessible.
+The note icon should be visible and functional on the homepage.","1) Navigate to the homepage.
+2) Verify that the note icon is visible.
+3) lick on the note icon.",The user should be navigated to the transaction history page.,working as expected,Pass
+TC044,Verify Navigation to Settings Page from Homepage,"verifiy that when a user clicks on the settings icon on the homepage, they are navigated to the settings page.","The user is logged into the application.
+The homepage is accessible.
+The settings icon should be visible and functional on the homepage.","1) Navigate to the homepage.
+2) Verify that the settings icon is visible.
+3) Click on the settings icon.","The user should be navigated to the settings page.
+The settings page should display the user's settings options.",working as expected,Pass
+TC045,Verify Back Button Functionality on Mobile Screen,"verify that when a user clicks the back button on the mobile screen, the application displays an exit app window.","The user is logged into the mobile application.
+The mobile application is running and the user is on a screen other than the home screen.
+The back button on the mobile device is functional.","1) Open the mobile application and navigate to a screen other than the home screen (e.g., wallet page, settings, etc.).
+2) Click the back button on the mobile device.","An exit app window should be displayed, asking the user if they want to exit the application.",working as expected,Pass
+TC046," Verify ""No"" Button Functionality in Exit Window","verify that when a user clicks on the ""No"" button in the exit window, they are redirected back to the default homepage.","The user is logged into the application.
+The exit window is triggered and visible.
+The ""No"" button should be visible and clickable.","1) Navigate to a section of the application that triggers the exit window.
+2) Verify that the exit window is displayed.
+3) Verify that the ""No"" button is visible and clickable.
+4) Click on the ""No"" button.",The user should be redirected to the default homepage,working as expected,Pass
+TC047,Verify User Exit from MSQUARE Application," This test case verifies that when a user chooses to exit the MSQUARE application, the application closes, and the user is returned to the mobile home screen","The user is logged into the MSQUARE application.
+The ""Yes"" button for exiting the application should be visible and clickable.","1)Launch the MSQUARE application and log in if not already logged in.
+2) avigate to the exit option (this could be in a menu or a button, depending on the app's design).
+3) Click on the exit option to prompt the exit confirmation dialog.
+4) Verify that the ""Yes"" button is visible and clickable.
+5) Click on the ""Yes"" button to confirm the exit.","The MSQUARE application should close.
+The user should be returned to the mobile home screen.",working as expected,Pass
