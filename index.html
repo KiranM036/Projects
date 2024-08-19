@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Test Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white text-2xl font-bold">My Portfolio</a>
+      <div>
+        <a href="#about" class="text-gray-400 hover:text-white mx-2">About</a>
+        <a href="#experience" class="text-gray-400 hover:text-white mx-2">Experience</a>
+        <a href="#projects" class="text-gray-400 hover:text-white mx-2">Projects</a>
+        <a href="#contact" class="text-gray-400 hover:text-white mx-2">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="bg-gray-900 text-white text-center py-20">
+    <h1 class="text-4xl md:text-6xl font-bold">Hello, I'm Kirankumar</h1>
+    <p class="mt-4 text-xl md:text-2xl">QA Engineer</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-gray-800">About Me</h2>
+    <p class="mt-4 text-gray-600">I am a dedicated and detail-oriented Software QA Engineer with 4+ years of experience in Agile methodology. I specialize in manual and automated testing, ensuring the quality and reliability of software applications.</p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-800">Experience</h2>
+      <div class="mt-8 space-y-4">
+        <div class="bg-white p-4 shadow-md rounded-md">
+          <h3 class="text-xl font-semibold">QA Engineer</h3>
+          <p class="text-gray-600">ADCanopus Digital Media Pvt Ltd - 2023 to 2024</p>
+          <ul class="list-disc list-inside mt-2 text-gray-600">
+            <li>Performed manual and automated testing of web applications</li>
+            <li>Collaborated with development teams in an Agile environment</li>
+            <li>Developed and executed test plans and test cases</li>
+            <li>Identified, documented, and tracked defects</li>
+          </ul>
+        </div>
+        <!-- Manual Test Engineer Experience -->
+        <div class="bg-white p-4 shadow-md rounded-md">
+          <h3 class="text-xl font-semibold">Software Test Engineer</h3>
+          <p class="text-gray-600">Ta3s Solutions Pvt Ltd - 2020 to 2023</p>
+          <ul class="list-disc list-inside mt-2 text-gray-600">
+            <li>Conducted manual testing for various software projects</li>
+            <li>Created detailed, comprehensive, and well-structured test plans and test cases</li>
+            <li>Identified, documented, and tracked software defects</li>
+            <li>Worked closely with the development team to resolve issues</li>
+            <li>Participated in Agile sprints and contributed to continuous improvement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-gray-800">Projects</h2>
+    <div class="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Moneybip -->
+      <div class="bg-white p-4 shadow-md rounded-md">
+        <h3 class="text-xl font-semibold">Moneybip</h3>
+        <p class="mt-2 text-gray-600">Moneybip is a comprehensive financial platform designed to streamline personal finance management. It offers a user-friendly interface for tracking expenses, creating budgets, and setting financial goals. The platform integrates with various bank accounts, providing real-time updates and insights into spending habits. Additionally, Moneybip features tools for investment tracking and financial planning. With robust security measures, it ensures that users' financial data remains safe and private</p>
+      </div>
+      <!-- Knowastro -->
+      <div class="bg-white p-4 shadow-md rounded-md">
+        <h3 class="text-xl font-semibold">Knowastro</h3>
+        <p class="mt-2 text-gray-600">Knowastro is an online platform that provides personalized astrological insights and horoscope readings. Users can access daily, weekly, and monthly horoscopes tailored to their zodiac signs. The site also offers detailed birth chart analyses and compatibility reports. With a user-friendly interface, Knowastro aims to help individuals understand their astrological influences and make informed decisions</p>
+    </div>
+    <!-- Axis Direct -->
+    <div class="bg-white p-4 shadow-md rounded-md">
+      <h3 class="text-xl font-semibold">Axis Direct</h3>
+      <p class="mt-2 text-gray-600">Axis Direct is an online trading platform offered by Axis Securities, providing a range of financial services. It allows users to trade in equities, derivatives, mutual funds, and other financial instruments. The platform offers real-time market updates, research reports, and various trading tools to help investors make informed decisions. With a user-friendly interface and robust security features, Axis Direct aims to facilitate seamless and secure trading experiences for its users</p>
+  </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-900 text-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold">Contact Me</h2>
+      <form id="contact-form" class="mt-8 space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium">Name</label>
+          <input type="text" id="name" name="name" class="mt-1 p-2 block w-full rounded-md bg-gray-700 text-white border border-gray-600" required>
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 p-2 block w-full rounded-md bg-gray-700 text-white border border-gray-600" required>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium">Message</label>
+          <textarea id="message" name="message" class="mt-1 p-2 block w-full rounded-md bg-gray-700 text-white border border-gray-600" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md">Send</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- Footer Section -->
+ <footer class="bg-gray-800 text-white text-center py-4">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap justify-center space-y-4">
+      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+        <h3 class="text-lg font-semibold">About</h3>
+        <p class="text-gray-400 mt-2">I am a dedicated and detail-oriented Software Test Engineer with 4 years of experience in Agile methodology.</p>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+        <h3 class="text-lg font-semibold">Contact</h3>
+        <p class="text-gray-400 mt-2">Email: kiransm036@gmail.com<br>Phone: +91-8317314324 / 8553326884</p>
+      </div>
+      <div class="container mx-auto text-center">
+        <h3 class="text-lg font-semibold">Socila media links</h3>
+        <div class="flex justify-center space-x-4 mt-4">
+          <a href="#" class="text-gray-400 hover:text-white" aria-label="Facebook">
+            <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M22.23 0H1.77A1.77 1.77 0 0 0 0 1.77v20.46A1.77 1.77 0 0 0 1.77 24H12v-8.28H9.33v-3.22H12V9.14c0-2.66 1.58-4.1 3.94-4.1 1.14 0 2.33.19 2.33.19v2.56h-1.31c-1.3 0-1.7.8-1.7 1.62v1.93h3.06l-.49 3.22H15.26V24h6.97A1.77 1.77 0 0 0 24 22.23V1.77A1.77 1.77 0 0 0 22.23 0z"/>
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white" aria-label="Twitter">
+            <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M24 4.56c-.89.39-1.84.65-2.83.77a4.92 4.92 0 0 0 2.15-2.72 9.84 9.84 0 0 1-3.1 1.19 4.92 4.92 0 0 0-8.4 4.48 13.94 13.94 0 0 1-10.12-5.14 4.92 4.92 0 0 0 1.52 6.57 4.9 4.9 0 0 1-2.23-.61v.06a4.92 4.92 0 0 0 3.95 4.83 4.92 4.92 0 0 1-2.22.08 4.93 4.93 0 0 0 4.6 3.42 9.87 9.87 0 0 1-6.12 2.11c-.39 0-.78-.02-1.17-.07a13.93 13.93 0 0 0 7.55 2.21c9.06 0 14.01-7.5 14.01-14 0-.21 0-.42-.01-.63A9.94 9.94 0 0 0 24 4.56z"/>
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white" aria-label="LinkedIn">
+            <svg class="h-6 w-6 fill-current" xmlns="https://www.linkedin.com/in/kirankumar-m-645006123" viewBox="0 0 24 24">
+              <path d="M22.23 0H1.77A1.77 1.77 0 0 0 0 1.77v20.46A1.77 1.77 0 0 0 1.77 24H22.2A1.77 1.77 0 0 0 24 22.23V1.77A1.77 1.77 0 0 0 22.23 0zM7.07 20.45H3.66V9.03h3.41v11.42zM5.36 7.69a1.98 1.98 0 1 1 0-3.96 1.98 1.98 0 0 1 0 3.96zm13.96 12.76h-3.4v-5.95c0-1.42-.03-3.24-1.97-3.24-1.97 0-2.27 1.54-2.27 3.14v6.05H8.29V9.03h3.26v1.56h.05c.45-.86 1.54-1.77 3.17-1.77 3.39 0 4.02 2.23 4.02 5.13v6.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 Kirankumar Mudhol. All rights reserved.</p>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
